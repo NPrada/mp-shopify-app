@@ -1,9 +1,13 @@
 # shopify-demo-app-node-react
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md)
 
+npx ngrok http 3000
+
 This repository contains the completed app for the [Build a Shopify app with Node and React](https://developers.shopify.com/tutorials/build-a-shopify-app-with-node-and-react) tutorial.
 
 ## Using demo app
+
+npx ngrok http 3000
 
 If you plan to use this completed app, then make sure that you first complete these setup instructions:
 
