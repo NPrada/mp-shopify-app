@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Shopify/shopify-demo-app-node-react#readme",
   "dependencies": {
+    "@babel/runtime": "^7.11.2",
     "@shopify/app-bridge": "^1.27.2",
     "@shopify/app-bridge-react": "^1.27.2",
     "@shopify/koa-shopify-auth": "^3.1.65",
@@ -40,14 +41,20 @@
     "koa-session": "^5.13.1",
     "mp-front-end": "git+https://0528fa4d881ae26eb1648f4caa3615f8fd53c622:x-oauth-basic@github.com/NPrada/mp-front-end.git#export",
     "next": "^8.1.0",
+    "next-compose-plugins": "^2.2.0",
+    "next-images": "^1.4.1",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-apollo": "^3.1.3",
     "react-dom": "^16.13.1",
-    "store-js": "^2.0.4"
+    "sass": "^1.26.10",
+    "store-js": "^2.0.4",
+    "url-loader": "^4.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@next/bundle-analyzer": "^9.5.3",
     "eslint": "^5.16.0",
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-shopify": "^27.0.1",

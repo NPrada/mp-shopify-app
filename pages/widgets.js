@@ -1,3 +1,5 @@
+
+import './widgets.scss'
 export default function Widgtes() {
 
   return (
