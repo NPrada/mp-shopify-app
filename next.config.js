@@ -17,7 +17,7 @@ module.exports = {
 
       const env = { API_KEY: apiKey };
       config.plugins.push(new webpack.DefinePlugin(env));
-
+      
       config.module.rules.push({
           test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2|otf)$/,
           use: {

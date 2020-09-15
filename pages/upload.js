@@ -1,9 +1,11 @@
-import * as x from 'mp-front-end';
-
+import "core-js/stable";
+import "regenerator-runtime/runtime";
+import * as Admin from 'mp-front-end';
 export default function Upload() {
-  console.log('x', x)
+
   return (
-    <div>Hello this is my upload page</div>
+    <Admin.Dashboard/>
+    // <div>Hello this is my upload page</div>
   );
 }
 

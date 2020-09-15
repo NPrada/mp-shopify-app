@@ -35,6 +35,7 @@ app.prepare().then(() => {
       secret: SHOPIFY_API_SECRET_KEY,
       scopes: ['read_products', 'write_products'],
       async afterAuth(ctx) {
+        console.log( ctx.session)
         const { shop, accessToken } = ctx.session;
         ctx.cookies.set("shopOrigin", shop, {
           httpOnly: false,
