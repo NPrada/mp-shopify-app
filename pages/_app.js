@@ -1,3 +1,4 @@
+
 import App from 'next/app';
 import Head from 'next/head';
 // import { AppProvider } from '@shopify/polaris';
@@ -18,7 +19,8 @@ class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props;
     const config = { apiKey: API_KEY, shopOrigin: Cookies.get("shopOrigin"), forceRedirect: true };
-
+    console.log('--------------------------------')
+    console.log(Component)
     return (
       <React.Fragment>
         <Head>
